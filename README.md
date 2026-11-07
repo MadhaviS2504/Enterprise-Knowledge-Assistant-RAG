@@ -52,5 +52,10 @@ install these two tools and connect to db by providing the ecessary details whic
 4. Glassflow Rius:create an api key from glassflow.ai/rius and use in the env.
 
 # Phase 2  -  AI Engineering: Implement RAG, Memory, Guardrails, Add observability using Glassflow, Human-In-The-Loop, Langraph
+
+
+
+
+
 # Phase 3  - Create Frontend, Backend for App: API, HML, CSS, Javascript.
 # Phase 4  - Integration and Testing: S3 CORS, Tests, documentaion, End to End Demonstration.

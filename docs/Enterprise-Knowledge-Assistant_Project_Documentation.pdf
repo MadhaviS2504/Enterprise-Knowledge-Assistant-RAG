@@ -1,0 +1,1178 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 4
+/Kids [ 4 0 R 10 0 R 14 0 R 18 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 3627
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 20 Tf 24 TL ET
+.121569 .121569 .121569 rg
+BT 1 0 0 1 45 748 Tm (Enterprise-Knowledge-Assistant) Tj T* ET
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 45 710 Tm (1. Project Goal) Tj T* ET
+q
+1 0 0 1 45 647.8 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 40 Tm /F1 9.2 Tf 12.3 TL (Build an enterprise-ready AI knowledge copilot that allows employees to ask natural-language questions about organizational) Tj T* (documents and receive grounded, contextual answers. The system combines document ingestion, retrieval-augmented) Tj T* (generation \(RAG\), persistent conversation memory, safety controls, human approval for sensitive requests, and execution) Tj T* (observability.) Tj T* ET
+Q
+Q
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 45 635.8 Tm (2. Problem Statement) Tj T* ET
+q
+1 0 0 1 45 573.6 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 40 Tm /F1 9.2 Tf 12.3 TL (Organizational knowledge is scattered across policies, handbooks, procedures, and internal documents. Employees waste time) Tj T* -0.06835 Tw (searching for answers, responses can be inconsistent, and ordinary chatbots may hallucinate, lack access to current documents,) Tj T* 0 Tw (or provide insufficient controls for sensitive operations. Teams also need visibility into failures, response latency, and the steps) Tj T* (taken by AI workflows.) Tj T* ET
+Q
+Q
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 45 561.6 Tm (3. Proposed Solution) Tj T* ET
+q
+1 0 0 1 45 487.1 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 52.3 Tm /F1 9.2 Tf 12.3 TL (Enterprise-Knowledge-Assistant provides a single chat interface over approved enterprise documents. Files are uploaded to) Tj T* (Amazon S3, processed into searchable chunks, embedded with Amazon Bedrock Titan, and indexed in Pinecone. A LangGraph) Tj T* (workflow retrieves relevant context, uses Amazon Nova Lite to compose an answer, and applies guardrails. PostgreSQL stores) Tj T* (chat history and application records; potentially sensitive actions enter a human-in-the-loop \(HITL\) approval queue. GlassFlow) Tj T* (Rius provides observability for instrumented operations.) Tj T* ET
+Q
+Q
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 45 475.1 Tm (4. Real-World Use Cases) Tj T* ET
+q
+1 0 0 1 45 339.1 cm
+q
+BT 1 0 0 1 0 113.8 Tm 12.3 TL /F2 9.2 Tf .121569 .121569 .121569 rg (HR and employee policies:) Tj /F1 9.2 Tf ( Ask about leave entitlement, working hours, remote work, and onboarding rules.) Tj  T*  T* /F2 9.2 Tf (IT and security knowledge:) Tj /F1 9.2 Tf ( Find password, MFA, device security, and incident-reporting procedures.) Tj  T*  T* /F2 9.2 Tf (Operations and travel policies:) Tj /F1 9.2 Tf ( Retrieve reimbursement rules, approval chains, and internal process guidance.) Tj  T*  T* /F2 9.2 Tf (Multi-turn knowledge assistance:) Tj /F1 9.2 Tf ( Ask follow-up questions without repeating the original context.) Tj  T*  T* /F2 9.2 Tf (Controlled administrative requests:) Tj /F1 9.2 Tf ( Route document deletion or policy modification requests for human review before any) Tj T* (separately implemented execution.) Tj T* ET
+Q
+Q
+.847059 .847059 .847059 RG
+n 45 32 m 567 32 l S
+BT /F2 8.5 Tf 10.2 TL ET
+.121569 .305882 .47451 rg
+BT 1 0 0 1 307.2315 18 Tm (ENTERPRISE-KNOWLEDGE-ASSISTANT | PROJECT OVERVIEW) Tj T* ET
+BT 1 0 0 1 567 18 Tm (1) Tj T* ET
+.121569 .121569 .121569 rg
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 612 36 re
+f*
+0.85 0.85 0.85 RG
+n
+45 32 m
+567 32 l
+S
+0.12 0.3 0.46 rg
+BT
+/F2-0 8.5 Tf
+10.2 TL
+ET
+BT
+1 0 0 1 45 18 Tm
+(ENTERPRISE\055KNOWLEDGE\055ASSISTANT \174 PROJECT OVERVIEW) Tj
+T*
+ET
+BT
+1 0 0 1 562.274 18 Tm
+(1) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/Contents 11 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 12 0 R
+/F2 8 0 R
+/F2-0 13 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+11 0 obj
+<<
+/Length 4981
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 16 Tf 19.2 TL ET
+.121569 .121569 .121569 rg
+BT 1 0 0 1 45 748 Tm (Technology Stack & Responsibilities) Tj T* ET
+BT /F1 9.5 Tf 11.4 TL ET
+BT 1 0 0 1 45 730 Tm (Each component has a defined role in the system.) Tj T* ET
+q
+1 0 0 1 45 108 cm
+q
+.85098 .917647 .968627 rg
+n 0 266.9 522 -21.3 re f*
+.952941 .964706 .972549 rg
+n 0 245.6 168 -245.6 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 250.6 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.8 Tf 11.3 TL (Technology) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174 250.6 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.8 Tf 11.3 TL (Purpose) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 229.3 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.8 Tf 11.3 TL (Python + FastAPI) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174 229.3 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.8 Tf 11.3 TL (Backend APIs for chat, uploads, ingestion triggers, approvals, and metrics.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 208 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.8 Tf 11.3 TL (HTML, CSS, JavaScript) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174 208 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.8 Tf 11.3 TL (Browser dashboard with chat, upload, approvals, and scrollable history.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 186.7 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.8 Tf 11.3 TL (LangGraph) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174 186.7 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.8 Tf 11.3 TL (Orchestrates retrieval, memory, guardrails, model calls, and HITL routing.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 165.4 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.8 Tf 11.3 TL (Amazon S3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174 165.4 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.8 Tf 11.3 TL (Durable document storage; browser uploads via presigned URLs.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 132.8 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 13.8 Tm /F2 8.8 Tf 11.3 TL (Amazon Bedrock Titan Embeddings) Tj T* (V2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174 144.1 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.8 Tf 11.3 TL (Converts document chunks and queries into semantic vectors \(1024 dimensions\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 111.5 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.8 Tf 11.3 TL (Amazon Bedrock Nova Lite) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174 111.5 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.8 Tf 11.3 TL (Generates responses using retrieved enterprise context.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 90.2 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.8 Tf 11.3 TL (Pinecone) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174 90.2 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.8 Tf 11.3 TL (Stores embeddings and retrieves semantically similar chunks.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 68.9 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.8 Tf 11.3 TL (Render PostgreSQL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174 68.9 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.8 Tf 11.3 TL (Persists document metadata, conversations, approvals, feedback, and audit events.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 47.6 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.8 Tf 11.3 TL (GlassFlow Rius) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174 47.6 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.8 Tf 11.3 TL (Traces instrumented agent, ingestion, model, and retrieval operations.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 26.3 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.8 Tf 11.3 TL (Deterministic Python guardrails) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174 26.3 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.8 Tf 11.3 TL (Screens selected input/output patterns; not a substitute for full security controls.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 5 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.8 Tf 11.3 TL (Ingestion worker \(worker/ingest.py\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174 5 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.8 Tf 11.3 TL (Extracts text, chunks documents, creates embeddings, and updates indexes/status.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.662745 .721569 .772549 RG
+.4 w
+n 0 266.9 m 522 266.9 l S
+n 0 0 m 522 0 l S
+n 0 0 m 0 266.9 l S
+n 522 0 m 522 266.9 l S
+n 0 245.6 m 522 245.6 l S
+n 0 224.3 m 522 224.3 l S
+n 0 203 m 522 203 l S
+n 0 181.7 m 522 181.7 l S
+n 0 160.4 m 522 160.4 l S
+n 0 127.8 m 522 127.8 l S
+n 0 106.5 m 522 106.5 l S
+n 0 85.2 m 522 85.2 l S
+n 0 63.9 m 522 63.9 l S
+n 0 42.6 m 522 42.6 l S
+n 0 21.3 m 522 21.3 l S
+n 168 0 m 168 266.9 l S
+Q
+Q
+Q
+.847059 .847059 .847059 RG
+n 45 32 m 567 32 l S
+BT /F2 8.5 Tf 10.2 TL ET
+.121569 .305882 .47451 rg
+BT 1 0 0 1 307.2315 18 Tm (ENTERPRISE-KNOWLEDGE-ASSISTANT | PROJECT OVERVIEW) Tj T* ET
+BT 1 0 0 1 567 18 Tm (2) Tj T* ET
+.121569 .121569 .121569 rg
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 612 36 re
+f*
+0.85 0.85 0.85 RG
+n
+45 32 m
+567 32 l
+S
+0.12 0.3 0.46 rg
+BT
+/F2-0 8.5 Tf
+10.2 TL
+ET
+BT
+1 0 0 1 45 18 Tm
+(ENTERPRISE\055KNOWLEDGE\055ASSISTANT \174 PROJECT OVERVIEW) Tj
+T*
+ET
+BT
+1 0 0 1 562.274 18 Tm
+(2) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+12 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+13 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+14 0 obj
+<<
+/Contents 15 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 16 0 R
+/F2 8 0 R
+/F2-0 17 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+15 0 obj
+<<
+/Length 8023
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 16 Tf 19.2 TL ET
+.121569 .121569 .121569 rg
+BT 1 0 0 1 45 748 Tm (System Architecture) Tj T* ET
+BT /F1 9.5 Tf 11.4 TL ET
+BT 1 0 0 1 45 730 Tm (Two primary paths: document ingestion and conversational question answering.) Tj T* ET
+.933333 .956863 .972549 rg
+n
+51 565 m
+561 565 l
+564.3168 565 567 567.6832 567 571 c
+567 674 l
+567 677.3168 564.3168 680 561 680 c
+51 680 l
+47.6832 680 45 677.3168 45 674 c
+45 571 l
+45 567.6832 47.6832 565 51 565 c
+h
+f*
+.121569 .305882 .47451 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 55 659 Tm (DOCUMENT INGESTION) Tj T* ET
+1 1 1 rg
+.607843 .721569 .8 RG
+n
+59 590 m
+139 590 l
+141.2112 590 143 591.7888 143 594 c
+143 641 l
+143 643.2112 141.2112 645 139 645 c
+59 645 l
+56.7888 645 55 643.2112 55 641 c
+55 594 l
+55 591.7888 56.7888 590 59 590 c
+h
+B*
+.121569 .121569 .121569 rg
+BT /F2 8.5 Tf 10.2 TL ET
+BT 1 0 0 1 66.411 623 Tm (Browser Upload) Tj T* ET
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 67.94625 608 Tm (Presigned S3 PUT) Tj T* ET
+.121569 .305882 .47451 RG
+.121569 .305882 .47451 rg
+n 143 617 m 159 617 l S
+n 159 617 m 153 622 l S
+n 159 617 m 153 612 l S
+1 1 1 rg
+.607843 .721569 .8 RG
+n
+168 590 m
+248 590 l
+250.2112 590 252 591.7888 252 594 c
+252 641 l
+252 643.2112 250.2112 645 248 645 c
+168 645 l
+165.7888 645 164 643.2112 164 641 c
+164 594 l
+164 591.7888 165.7888 590 168 590 c
+h
+B*
+.121569 .121569 .121569 rg
+BT /F2 8.5 Tf 10.2 TL ET
+BT 1 0 0 1 185.0925 623 Tm (Amazon S3) Tj T* ET
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 187.3713 608 Tm (Original files) Tj T* ET
+.121569 .305882 .47451 RG
+.121569 .305882 .47451 rg
+n 252 617 m 268 617 l S
+n 268 617 m 262 622 l S
+n 268 617 m 262 612 l S
+1 1 1 rg
+.607843 .721569 .8 RG
+n
+277 590 m
+357 590 l
+359.2112 590 361 591.7888 361 594 c
+361 641 l
+361 643.2112 359.2112 645 357 645 c
+277 645 l
+274.7888 645 273 643.2112 273 641 c
+273 594 l
+273 591.7888 274.7888 590 277 590 c
+h
+B*
+.121569 .121569 .121569 rg
+BT /F2 8.5 Tf 10.2 TL ET
+BT 1 0 0 1 282.286 623 Tm (Ingestion Worker) Tj T* ET
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 291.05 608 Tm (Extract + chunk) Tj T* ET
+.121569 .305882 .47451 RG
+.121569 .305882 .47451 rg
+n 361 617 m 377 617 l S
+n 377 617 m 371 622 l S
+n 377 617 m 371 612 l S
+1 1 1 rg
+.607843 .721569 .8 RG
+n
+386 590 m
+466 590 l
+468.2112 590 470 591.7888 470 594 c
+470 641 l
+470 643.2112 468.2112 645 466 645 c
+386 645 l
+383.7888 645 382 643.2112 382 641 c
+382 594 l
+382 591.7888 383.7888 590 386 590 c
+h
+B*
+.121569 .121569 .121569 rg
+BT /F2 8.5 Tf 10.2 TL ET
+BT 1 0 0 1 407.1045 623 Tm (Pinecone) Tj T* ET
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 405.1575 608 Tm (Vector index) Tj T* ET
+.121569 .305882 .47451 RG
+.121569 .305882 .47451 rg
+n 470 617 m 486 617 l S
+n 486 617 m 480 622 l S
+n 486 617 m 480 612 l S
+1 1 1 rg
+.607843 .721569 .8 RG
+n
+495 590 m
+575 590 l
+577.2112 590 579 591.7888 579 594 c
+579 641 l
+579 643.2112 577.2112 645 575 645 c
+495 645 l
+492.7888 645 491 643.2112 491 641 c
+491 594 l
+491 591.7888 492.7888 590 495 590 c
+h
+B*
+.121569 .121569 .121569 rg
+BT /F2 8.5 Tf 10.2 TL ET
+BT 1 0 0 1 506.661 623 Tm (Bedrock Titan) Tj T* ET
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 514.1575 608 Tm (Embeddings) Tj T* ET
+.933333 .956863 .972549 rg
+n
+51 390 m
+561 390 l
+564.3168 390 567 392.6832 567 396 c
+567 534 l
+567 537.3168 564.3168 540 561 540 c
+51 540 l
+47.6832 540 45 537.3168 45 534 c
+45 396 l
+45 392.6832 47.6832 390 51 390 c
+h
+f*
+.121569 .305882 .47451 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 55 519 Tm (CONVERSATIONAL RAG + GOVERNANCE) Tj T* ET
+1 1 1 rg
+.607843 .721569 .8 RG
+n
+58 448 m
+164 448 l
+165.6584 448 167 449.3416 167 451 c
+167 475 l
+167 476.6584 165.6584 478 164 478 c
+58 478 l
+56.3416 478 55 476.6584 55 475 c
+55 451 l
+55 449.3416 56.3416 448 58 448 c
+h
+B*
+.121569 .121569 .121569 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 97 466 Tm (Chat UI) Tj T* ET
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 82.6955 455 Tm (Question + history) Tj T* ET
+1 1 1 rg
+.607843 .721569 .8 RG
+n
+181 448 m
+287 448 l
+288.6584 448 290 449.3416 290 451 c
+290 475 l
+290 476.6584 288.6584 478 287 478 c
+181 478 l
+179.3416 478 178 476.6584 178 475 c
+178 451 l
+178 449.3416 179.3416 448 181 448 c
+h
+B*
+.121569 .121569 .121569 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 219.108 466 Tm (FastAPI) Tj T* ET
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 212.209 455 Tm (API endpoints) Tj T* ET
+1 1 1 rg
+.607843 .721569 .8 RG
+n
+304 448 m
+410 448 l
+411.6584 448 413 449.3416 413 451 c
+413 475 l
+413 476.6584 411.6584 478 410 478 c
+304 478 l
+302.3416 478 301 476.6584 301 475 c
+301 451 l
+301 449.3416 302.3416 448 304 448 c
+h
+B*
+.121569 .121569 .121569 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 335.664 466 Tm (LangGraph) Tj T* ET
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 333.27 455 Tm (Agent workflow) Tj T* ET
+1 1 1 rg
+.607843 .721569 .8 RG
+n
+427 448 m
+533 448 l
+534.6584 448 536 449.3416 536 451 c
+536 475 l
+536 476.6584 534.6584 478 533 478 c
+427 478 l
+425.3416 478 424 476.6584 424 475 c
+424 451 l
+424 449.3416 425.3416 448 427 448 c
+h
+B*
+.121569 .121569 .121569 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 453.104 466 Tm (Bedrock Nova) Tj T* ET
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 450.8205 455 Tm (Answer generation) Tj T* ET
+1 1 1 rg
+.607843 .721569 .8 RG
+n
+58 410 m
+164 410 l
+165.6584 410 167 411.3416 167 413 c
+167 437 l
+167 438.6584 165.6584 440 164 440 c
+58 440 l
+56.3416 440 55 438.6584 55 437 c
+55 413 l
+55 411.3416 56.3416 410 58 410 c
+h
+B*
+.121569 .121569 .121569 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 75.208 428 Tm (Pinecone Retrieval) Tj T* ET
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 85.128 417 Tm (Relevant chunks) Tj T* ET
+1 1 1 rg
+.607843 .721569 .8 RG
+n
+181 410 m
+287 410 l
+288.6584 410 290 411.3416 290 413 c
+290 437 l
+290 438.6584 288.6584 440 287 440 c
+181 440 l
+179.3416 440 178 438.6584 178 437 c
+178 413 l
+178 411.3416 179.3416 410 181 410 c
+h
+B*
+.121569 .121569 .121569 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 200.544 428 Tm (Guardrails + HITL) Tj T* ET
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 203.1685 417 Tm (Checks + approvals) Tj T* ET
+1 1 1 rg
+.607843 .721569 .8 RG
+n
+304 410 m
+410 410 l
+411.6584 410 413 411.3416 413 413 c
+413 437 l
+413 438.6584 411.6584 440 410 440 c
+304 440 l
+302.3416 440 301 438.6584 301 437 c
+301 413 l
+301 411.3416 302.3416 410 304 410 c
+h
+B*
+.121569 .121569 .121569 rg
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 333.884 428 Tm (PostgreSQL) Tj T* ET
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 318.29 417 Tm (Memory, metadata, audit) Tj T* ET
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 45 360 Tm (How the Architecture Works) Tj T* ET
+q
+1 0 0 1 45 320.4 cm
+q
+BT 1 0 0 1 0 15.4 Tm 12.3 TL /F2 9.2 Tf .121569 .121569 .121569 rg (Ingestion:) Tj /F1 9.2 Tf ( A user uploads a document to S3. The ingestion worker extracts and chunks text, requests Titan embeddings, stores) Tj T* (vectors in Pinecone, and updates document metadata/status in PostgreSQL.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45 275.5 cm
+q
+BT 1 0 0 1 0 27.7 Tm -0.106027 Tw 12.3 TL /F2 9.2 Tf .121569 .121569 .121569 rg (Chat:) Tj /F1 9.2 Tf ( A user question reaches FastAPI and LangGraph. The workflow consults conversation history, retrieves relevant Pinecone) Tj T* 0 Tw (chunks, invokes Nova Lite, applies guardrails, and returns a grounded response. Sensitive requests can create HITL approval) Tj T* (records instead of immediately performing the requested action.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45 242.9 cm
+q
+BT 1 0 0 1 0 15.4 Tm 12.3 TL /F2 9.2 Tf .121569 .121569 .121569 rg (Observability:) Tj /F1 9.2 Tf ( GlassFlow Rius receives traces from explicitly instrumented operations. Tracing should avoid exporting sensitive) Tj T* (document or prompt content by default.) Tj T* ET
+Q
+Q
+.847059 .847059 .847059 RG
+n 45 32 m 567 32 l S
+BT /F2 8.5 Tf 10.2 TL ET
+.121569 .305882 .47451 rg
+BT 1 0 0 1 307.2315 18 Tm (ENTERPRISE-KNOWLEDGE-ASSISTANT | PROJECT OVERVIEW) Tj T* ET
+BT 1 0 0 1 567 18 Tm (3) Tj T* ET
+.121569 .121569 .121569 rg
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 612 36 re
+f*
+0.85 0.85 0.85 RG
+n
+45 32 m
+567 32 l
+S
+0.12 0.3 0.46 rg
+BT
+/F2-0 8.5 Tf
+10.2 TL
+ET
+BT
+1 0 0 1 45 18 Tm
+(ENTERPRISE\055KNOWLEDGE\055ASSISTANT \174 PROJECT OVERVIEW) Tj
+T*
+ET
+BT
+1 0 0 1 562.274 18 Tm
+(3) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+16 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+17 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+18 0 obj
+<<
+/Contents 19 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 20 0 R
+/F2 8 0 R
+/F2-0 21 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+19 0 obj
+<<
+/Length 5645
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 16 Tf 19.2 TL ET
+.121569 .121569 .121569 rg
+BT 1 0 0 1 45 748 Tm (Application Functionalities) Tj T* ET
+BT /F1 9.5 Tf 11.4 TL ET
+BT 1 0 0 1 45 730 Tm (What learners can demonstrate in Enterprise-Knowledge-Assistant) Tj T* ET
+q
+1 0 0 1 45 235 cm
+q
+.85098 .917647 .968627 rg
+n 0 359.9 522 -21.3 re f*
+.952941 .964706 .972549 rg
+n 0 338.6 168 -338.6 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 343.6 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.8 Tf 11.3 TL (Functionality) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174 343.6 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.8 Tf 11.3 TL (Description) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 322.3 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11.3 TL /F2 8.8 Tf .121569 .121569 .121569 rg (Document upload & ingestion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174 299.7 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 25.1 Tm /F1 8.8 Tf 11.3 TL (Upload PDF/TXT and supported documents directly to S3 using presigned URLs. The) Tj T* (ingestion worker extracts text, chunks it, generates Titan embeddings, indexes) Tj T* (Pinecone vectors, and tracks status.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 278.4 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.8 Tf 11.3 TL (Enterprise RAG chat) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174 255.8 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 25.1 Tm /F1 8.8 Tf 11.3 TL (Ask natural-language questions. LangGraph retrieves relevant Pinecone context and) Tj T* (uses Bedrock Nova Lite to generate document-grounded responses, with source) Tj T* (references where available.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 234.5 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.8 Tf 11.3 TL (Persistent conversation memory) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174 223.2 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 13.8 Tm /F1 8.8 Tf 11.3 TL (Store chat messages in PostgreSQL and use recent conversation turns to understand) Tj T* (follow-up questions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 201.9 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11.3 TL /F2 8.8 Tf .121569 .121569 .121569 rg (Input & output guardrails) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174 190.6 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 13.8 Tm /F1 8.8 Tf 11.3 TL (Apply deterministic checks to detect selected prompt-injection patterns, requests for) Tj T* (secrets, and potentially unsafe generated output. These are application-level controls.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 169.3 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.8 Tf 11.3 TL (Human-in-the-loop \(HITL\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174 158 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 13.8 Tm /F1 8.8 Tf 11.3 TL (Route sensitive requests such as document deletion or policy modification to a pending) Tj T* (approval queue. Administrators can approve or reject requests in the dashboard.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 136.7 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11.3 TL /F2 8.8 Tf .121569 .121569 .121569 rg (Audit trail & feedback) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174 125.4 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 13.8 Tm /F1 8.8 Tf 11.3 TL (Record significant application events and approval decisions in PostgreSQL; capture) Tj T* (user feedback for review and improvement.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 104.1 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.8 Tf 11.3 TL (Observability with GlassFlow Rius) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174 81.5 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 25.1 Tm /F1 8.8 Tf 11.3 TL (Instrument LangGraph nodes, document ingestion, Pinecone operations, and Bedrock) Tj T* (calls to inspect execution traces, latency, and errors. Sensitive-content capture can be) Tj T* (disabled.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 60.2 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11.3 TL /F2 8.8 Tf .121569 .121569 .121569 rg (Dashboard & usability) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174 48.9 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 13.8 Tm /F1 8.8 Tf 11.3 TL (Provide chat, document upload, approvals, and metrics views; keep chat at a fixed) Tj T* (height with scrollable message history and auto-scroll to new messages.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 27.6 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.8 Tf 11.3 TL (Tenant-aware data model) Tj T* ET
+Q
+Q
+q
+1 0 0 1 174 5 cm
+q
+.121569 .121569 .121569 rg
+BT 1 0 0 1 0 25.1 Tm /F1 8.8 Tf 11.3 TL (Associate records with tenant/workspace identifiers where implemented.) Tj T* (Production-grade tenant isolation still requires authentication, authorization, and) Tj T* (enforcement.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.662745 .721569 .772549 RG
+.4 w
+n 0 359.9 m 522 359.9 l S
+n 0 0 m 522 0 l S
+n 0 0 m 0 359.9 l S
+n 522 0 m 522 359.9 l S
+n 0 338.6 m 522 338.6 l S
+n 0 294.7 m 522 294.7 l S
+n 0 250.8 m 522 250.8 l S
+n 0 218.2 m 522 218.2 l S
+n 0 185.6 m 522 185.6 l S
+n 0 153 m 522 153 l S
+n 0 120.4 m 522 120.4 l S
+n 0 76.5 m 522 76.5 l S
+n 0 43.9 m 522 43.9 l S
+n 168 0 m 168 359.9 l S
+Q
+Q
+Q
+q
+1 0 0 1 45 192.4 cm
+q
+BT 1 0 0 1 0 13.8 Tm 11.3 TL /F2 8.8 Tf .121569 .121569 .121569 rg (Implementation scope:) Tj /F1 8.8 Tf ( HITL approval currently records decisions; approved deletion or policy changes are not automatically) Tj T* (executed. Observability depends on configured instrumentation and a working Rius connection.) Tj T* ET
+Q
+Q
+.847059 .847059 .847059 RG
+n 45 32 m 567 32 l S
+BT /F2 8.5 Tf 10.2 TL ET
+.121569 .305882 .47451 rg
+BT 1 0 0 1 307.2315 18 Tm (ENTERPRISE-KNOWLEDGE-ASSISTANT | PROJECT OVERVIEW) Tj T* ET
+BT 1 0 0 1 567 18 Tm (4) Tj T* ET
+.121569 .121569 .121569 rg
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 612 36 re
+f*
+0.85 0.85 0.85 RG
+n
+45 32 m
+567 32 l
+S
+0.12 0.3 0.46 rg
+BT
+/F2-0 8.5 Tf
+10.2 TL
+ET
+BT
+1 0 0 1 45 18 Tm
+(ENTERPRISE\055KNOWLEDGE\055ASSISTANT \174 PROJECT OVERVIEW) Tj
+T*
+ET
+BT
+1 0 0 1 562.274 18 Tm
+(4) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+20 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+21 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 22
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000134 00000 n 
+0000000183 00000 n 
+0000000428 00000 n 
+0000004107 00000 n 
+0000004214 00000 n 
+0000004321 00000 n 
+0000004433 00000 n 
+0000004545 00000 n 
+0000004794 00000 n 
+0000009828 00000 n 
+0000009936 00000 n 
+0000010049 00000 n 
+0000010298 00000 n 
+0000018374 00000 n 
+0000018482 00000 n 
+0000018595 00000 n 
+0000018844 00000 n 
+0000024542 00000 n 
+0000024650 00000 n 
+trailer
+<<
+/Size 22
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+24763
+%%EOF
