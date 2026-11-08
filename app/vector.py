@@ -14,6 +14,10 @@ from app.observability import trace
 log = logging.getLogger(__name__)
 
 
+# Cache the initialized Pinecone index client because setup performs API calls,
+# validates configuration, waits for readiness, and creates the client object.
+# Reusing it avoids repeated setup and network work across upsert/search/delete
+# calls; maxsize=1 keeps only the one configured index in memory.
 @lru_cache(maxsize=1)
 def index():
     """Initialize, validate, and return the configured Pinecone index.
@@ -96,7 +100,11 @@ def namespace(tenant: str) -> str:
 
 @trace("upsert")
 def upsert(tenant: str, records: Sequence[dict]):
-    """Insert or update vectors in the namespace belonging to a tenant."""
+    """Upload vectors and metadata, updating existing IDs and creating new ones.
+
+    The tenant namespace keeps one organization's vector data isolated from
+    other tenants while allowing repeated uploads to refresh indexed documents.
+    """
     return index().upsert(
         vectors=records,
         namespace=namespace(tenant),
@@ -116,6 +124,8 @@ def search(
     Results must either belong to an allowed group or be owned by the requesting
     user. Returned matches are converted to simple dictionaries for callers.
     """
+    # Restrict search results to documents the requesting user is authorized to
+    # view: either a document shared with one of their groups or one they own.
     access_filter = {
         "$or": [
             {"allowed_groups": {"$in": list(groups)}},
