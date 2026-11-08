@@ -5,6 +5,7 @@ from functools import lru_cache
 from typing import Iterable, Mapping, Optional, Sequence
 
 import boto3
+from botocore.config import Config
 
 from app.config import settings
 from app.observability import trace
@@ -21,20 +22,31 @@ def client(service: str):
     """
     app_settings = settings()
 
-    if bool(app_settings.aws_access_key_id) != bool(
-        app_settings.aws_secret_access_key
-    ):
+    if bool(app_settings.aws_access_key_id) != bool(app_settings.aws_secret_access_key):
         raise ValueError(
             "Set both AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY, "
             "or set neither to use the default AWS credential chain."
         )
 
     options = {"region_name": app_settings.aws_region}
+    # S3 presigned browser uploads must use Signature Version 4. Some buckets
+    # reject older presigned signatures even when direct S3 operations work.
+    if service == "s3":
+        options["config"] = Config(signature_version="s3v4")
     if app_settings.aws_access_key_id and app_settings.aws_secret_access_key:
         options.update(
             aws_access_key_id=app_settings.aws_access_key_id,
             aws_secret_access_key=app_settings.aws_secret_access_key,
         )
+    # A bucket's signing region must match the bucket's location. This lookup
+    # prevents a configured region from producing invalid presigned URLs when
+    # the bucket was created in a different AWS region.
+    if app_settings.s3_bucket:
+        location_client = boto3.client(service, **options)
+        location = location_client.get_bucket_location(
+            Bucket=app_settings.s3_bucket
+        ).get("LocationConstraint")
+        options["region_name"] = location or "ap-south-1"
 
     return boto3.client(service, **options)
 
@@ -87,8 +99,7 @@ def answer(
 
     recent_messages: Sequence[Mapping[str, str]] = list(history or [])
     recent = "\n".join(
-        f"{row['role']}: {row['content'][:1200]}"
-        for row in recent_messages
+        f"{row['role']}: {row['content'][:1200]}" for row in recent_messages
     )
 
     prompt = (
