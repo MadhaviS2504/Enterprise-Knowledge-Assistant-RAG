@@ -41,7 +41,7 @@ def client(service: str):
     # A bucket's signing region must match the bucket's location. This lookup
     # prevents a configured region from producing invalid presigned URLs when
     # the bucket was created in a different AWS region.
-    if app_settings.s3_bucket:
+    if service == "s3" and app_settings.s3_bucket:
         location_client = boto3.client(service, **options)
         location = location_client.get_bucket_location(
             Bucket=app_settings.s3_bucket
