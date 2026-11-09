@@ -1,11 +1,28 @@
 // Simple single-workspace UI. No login, tokens, or user accounts.
 const $ = (id) => document.getElementById(id);
+
+// randomUUID() is restricted to secure contexts, while the deployed app is
+// currently served over HTTP from an IP address. Keep conversation IDs working
+// there by generating an RFC 4122 UUID with getRandomValues() as a fallback.
+const createConversationId = () => {
+  if (typeof crypto.randomUUID === "function") return crypto.randomUUID();
+
+  const bytes = new Uint8Array(16);
+  crypto.getRandomValues(bytes);
+  bytes[6] = (bytes[6] & 0x0f) | 0x40;
+  bytes[8] = (bytes[8] & 0x3f) | 0x80;
+
+  return Array.from(bytes, (byte) => byte.toString(16).padStart(2, "0"))
+    .map((byte, index) => ([4, 6, 8, 10].includes(index) ? `-${byte}` : byte))
+    .join("");
+};
+
 // Single-workspace conversation identifier, not an authentication token.
 let conversationId =
-  sessionStorage.getItem("atlas_conversation_id") || crypto.randomUUID();
+  sessionStorage.getItem("atlas_conversation_id") || createConversationId();
 sessionStorage.setItem("atlas_conversation_id", conversationId);
 $("newChat").onclick = () => {
-  conversationId = crypto.randomUUID();
+  conversationId = createConversationId();
   sessionStorage.setItem("atlas_conversation_id", conversationId);
   $("messages").replaceChildren();
   toast("Started a new conversation");
@@ -168,12 +185,24 @@ $("uploadForm").onsubmit = async (e) => {
       method: "POST",
       body: JSON.stringify({ filename: f.name }),
     });
-    const up = await fetch(r.upload_url, {
-      method: "PUT",
-      headers: r.headers,
-      body: f,
-    });
-    if (!up.ok) throw Error("S3 upload failed");
+    let up;
+    try {
+      up = await fetch(r.upload_url, {
+        method: "PUT",
+        headers: r.headers,
+        body: f,
+      });
+    } catch (error) {
+      throw Error(
+        `Could not reach S3. Check the bucket CORS policy for this site. ${error.message}`,
+      );
+    }
+    if (!up.ok) {
+      const detail = await up.text();
+      throw Error(
+        `S3 upload failed (${up.status})${detail ? `: ${detail}` : ""}`,
+      );
+    }
     toast("Uploaded to S3. Processing document now...");
     await api("/api/documents/complete", {
       method: "POST",
