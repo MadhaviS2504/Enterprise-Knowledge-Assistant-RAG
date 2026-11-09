@@ -1,6 +1,6 @@
 <div align="center">
 
-# Atlas Enterprise AI
+# Enterprise Knowledge Assistant AI
 
 ### Enterprise Knowledge Assistant with RAG, LangGraph, AWS Bedrock, and Automated AWS Deployment
 
@@ -14,7 +14,7 @@
 
 ## Overview
 
-**Atlas Enterprise AI** is a full-stack, educational enterprise knowledge assistant that answers natural-language questions over uploaded organizational documents using retrieval-augmented generation (RAG). It combines a FastAPI backend, LangGraph orchestration, Amazon Bedrock models, Pinecone vector search, and PostgreSQL-backed conversation history with an HTML/CSS/JavaScript interface.
+**Enterprise Knowledge Assistant AI** is a full-stack, educational enterprise knowledge assistant that answers natural-language questions over uploaded organizational documents using retrieval-augmented generation (RAG). It combines a FastAPI backend, LangGraph orchestration, Amazon Bedrock models, Pinecone vector search, and PostgreSQL-backed conversation history with an HTML/CSS/JavaScript interface.
 
 The project demonstrates how to connect document ingestion, grounded question answering, safety checks, human-in-the-loop (HITL) review, operational auditing, and observability into one AI application. It also includes a deployment approach using **Docker, Amazon ECR, Amazon EC2, and GitHub Actions with a self-hosted runner**.
 
@@ -419,6 +419,6 @@ Issues and pull requests are welcome where enabled. For substantial changes, des
 
 <div align="center">
 
-**Atlas Enterprise AI** — Practical enterprise RAG engineering, from local development to AWS CI/CD.
+**Enterprise Knowledge Assistant AI** — Practical enterprise RAG engineering, from local development to AWS CI/CD.
 
 </div>
