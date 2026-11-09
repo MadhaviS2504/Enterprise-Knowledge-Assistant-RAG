@@ -160,7 +160,8 @@ jobs:
           S3_BUCKET: ${{ secrets.S3_BUCKET }}
 
           BEDROCK_EMBED_MODEL: ${{ secrets.BEDROCK_EMBED_MODEL }}
-          BEDROCK_CHAT_MODEL: ${{ secrets.BEDROCK_CHAT_MODEL }}
+          # Nova Lite requires an inference profile for on-demand use in ap-south-1.
+          BEDROCK_CHAT_MODEL: apac.amazon.nova-lite-v1:0
           EMBED_DIM: ${{ secrets.EMBED_DIM }}
 
           PINECONE_API_KEY: ${{ secrets.PINECONE_API_KEY }}
@@ -188,7 +189,6 @@ jobs:
             AWS_REGION
             S3_BUCKET
             BEDROCK_EMBED_MODEL
-            BEDROCK_CHAT_MODEL
             EMBED_DIM
             PINECONE_API_KEY
             PINECONE_INDEX_NAME
@@ -238,7 +238,9 @@ jobs:
 
           # Bedrock
           BEDROCK_EMBED_MODEL: ${{ secrets.BEDROCK_EMBED_MODEL }}
-          BEDROCK_CHAT_MODEL: ${{ secrets.BEDROCK_CHAT_MODEL }}
+          # Keep production on the supported APAC inference profile; do not let
+          # a stale GitHub secret override the model configured in the app.
+          BEDROCK_CHAT_MODEL: apac.amazon.nova-lite-v1:0
           EMBED_DIM: ${{ secrets.EMBED_DIM }}
 
           # Pinecone

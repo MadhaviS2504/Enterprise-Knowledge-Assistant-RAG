@@ -185,7 +185,7 @@ Copy `.env.example` to `.env`, then update the values for your environment:
 AWS_REGION=us-east-1
 S3_BUCKET=your-private-document-bucket
 BEDROCK_EMBED_MODEL=amazon.titan-embed-text-v2:0
-BEDROCK_CHAT_MODEL=amazon.nova-lite-v1:0
+BEDROCK_CHAT_MODEL=apac.amazon.nova-lite-v1:0
 EMBED_DIM=1024
 
 PINECONE_API_KEY=your-pinecone-key
