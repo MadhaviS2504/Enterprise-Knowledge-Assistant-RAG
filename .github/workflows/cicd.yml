@@ -317,9 +317,9 @@ jobs:
 
           echo "Atlas Enterprise AI deployed successfully"
 
-      # ----------------------------------------
+      # ------------------------------------
       # CLEANUP
-      # ----------------------------------------
+      # ------------------------------------
 
       - name: Clean Unused Docker Images
         run: |
