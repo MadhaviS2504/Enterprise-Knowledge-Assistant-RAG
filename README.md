@@ -18,7 +18,7 @@
 
 The project demonstrates how to connect document ingestion, grounded question answering, safety checks, human-in-the-loop (HITL) review, operational auditing, and observability into one AI application. It also includes a deployment approach using **Docker, Amazon ECR, Amazon EC2, and GitHub Actions with a self-hosted runner**.
 
-> **Project status:** Teaching/reference implementation. It is **not production-secure as shipped**: the demo identity context is not a real authentication or authorization system, approval decisions do not automatically execute destructive operations, and production-grade availability and rollback controls must be added separately.
+> **Project status:** reference implementation. It is **not production-secure as shipped**: the demo identity context is not a real authentication or authorization system, approval decisions do not automatically execute destructive operations, and production-grade availability and rollback controls must be added separately.
 
 ## Key Features
 
