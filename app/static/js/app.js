@@ -22,7 +22,16 @@ const api = async (path, options = {}) => {
     ...options,
     headers: { "Content-Type": "application/json", ...(options.headers || {}) },
   });
-  const data = await res.json();
+  const responseText = await res.text();
+  let data;
+  try {
+    data = responseText ? JSON.parse(responseText) : {};
+  } catch {
+    if (!res.ok) {
+      throw Error(`Request failed (${res.status}): ${responseText}`);
+    }
+    throw Error("The server returned an invalid response.");
+  }
   if (!res.ok) throw Error(data.detail || "Request failed");
   return data;
 };

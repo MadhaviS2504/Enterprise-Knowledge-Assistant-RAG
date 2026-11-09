@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     s3_bucket: str = ""
     database_url: str = ""  # Render PostgreSQL External Database URL
     bedrock_embed_model: str = "amazon.titan-embed-text-v2:0"
-    bedrock_chat_model: str = "amazon.nova-lite-v1:0"
+    bedrock_chat_model: str = "apac.amazon.nova-lite-v1:0"
     embed_dim: int = 1024
     max_upload_bytes: int = 10485760
     pinecone_api_key: str = ""
