@@ -20,7 +20,7 @@ concurrency:
 jobs:
 
   # ==========================================
-  # 1. CONTINUOUS INTEGRATION
+  # 1. CONTINUOUS INTEGRATION ap-south-1 region
   # ==========================================
 
   integration:
